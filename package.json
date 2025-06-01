@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/k-stock/threejs_sandbox#readme",
   "devDependencies": {
+    "@types/three": "^0.176.0",
     "autoprefixer": "^10.4.21",
     "css-loader": "^7.1.2",
     "gts": "^6.0.2",
@@ -43,5 +45,8 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1",
     "workbox-webpack-plugin": "^7.3.0"
+  },
+  "dependencies": {
+    "three": "^0.177.0"
   }
 }
